@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $socials = config('footer_socials');
+    $footer_lists = config('footer_list');
+    return view('home', compact('socials', 'footer_lists'));
 })->name('home');
 
 Route::get('/comics', function () {
