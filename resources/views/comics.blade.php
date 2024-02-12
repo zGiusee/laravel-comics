@@ -17,9 +17,17 @@
 
 <body>
     @include('partials.header')
-    <main>
 
+    <main>
+        <div class="jumbo-container">
+            <span class="default-badge-bg">CURRENT SERIES</span>
+        </div>
+
+        <div class="my-bg-blue">
+            @include ('partials.infoBanner')
+        </div>
     </main>
+
     @include('partials.footer')
 </body>
 

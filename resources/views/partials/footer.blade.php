@@ -20,14 +20,6 @@
                                 @endforeach
                             </ul>
                         @endforeach
-                        {{-- <ul v-for="(list, index) in footerList" :key="index">
-                            <h3>
-                                {{ list.listTitle }}
-                            </h3>
-                            <li v-for="(link, index) in list.liLinks" :key="index">
-                                <a :href="link.url">{{ link.linkName }}</a>
-                            </li>
-                        </ul> --}}
                     </div>
                 </div>
 
