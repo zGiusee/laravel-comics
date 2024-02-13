@@ -13,16 +13,18 @@
                     @foreach ($comics as $comic)
                         <div class="col-2 card_container">
 
-                            <!-- COMIC CARD -->
-                            <div>
-                                <div class="img-container p-relative">
-                                    <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
-                                    <span class="price-tag">{{ $comic['price'] }}</span>
-                                </div>
+                            <a class="text-decoration-none " href="{{ route('comic_info', ['param' => $comic['id']]) }}">
+                                <!-- COMIC CARD -->
                                 <div>
-                                    <h5>{{ $comic['series'] }}</h5>
+                                    <div class="img-container p-relative">
+                                        <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                                        <span class="price-tag">{{ $comic['price'] }}</span>
+                                    </div>
+                                    <div>
+                                        <h5>{{ $comic['series'] }}</h5>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
 
                         </div>
                     @endforeach
