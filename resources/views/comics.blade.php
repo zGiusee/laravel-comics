@@ -1,11 +1,10 @@
 @extends('layout.base')
 
 @section('content')
+    <div class="jumbo-container">
+        <span class="default-badge-bg">CURRENT SERIES</span>
+    </div>
     <div>
-        <div class="jumbo-container">
-            <span class="default-badge-bg">CURRENT SERIES</span>
-        </div>
-
         <div class="my-bg-black py-5">
             <div class="container">
                 <div class="row">

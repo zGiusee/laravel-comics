@@ -19,7 +19,6 @@
     @include('partials.header')
 
     <main>
-
         @yield('content')
 
         <div class="my-bg-blue">
