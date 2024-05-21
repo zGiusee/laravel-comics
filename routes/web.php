@@ -36,7 +36,7 @@ Route::get('/comics', function () {
     return view('comics', compact('socials', 'footer_lists', 'banner_infos', 'comics', 'header_links'));
 })->name('comics');
 
-Route::get('/comics/comic_info/{param}', function ($param) {
+Route::get('/comics/{param}', function ($param) {
     // RECUPERO GLI ARRAY DALLA CARTELLA CONFIG
     $socials = config('footer_socials');
     $header_links = config('header_links');

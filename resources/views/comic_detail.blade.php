@@ -77,7 +77,6 @@
             <div class="row">
                 {{-- TALENT AND SPECS --}}
                 <div class="col-12">
-
                     <div class="talent-specs-container">
                         <div class="row">
 
@@ -132,16 +131,12 @@
                                 </div>
 
                             </div>
+
                         </div>
                     </div>
-
                 </div>
+
             </div>
         </div>
     </div>
 @endsection
-{{-- {{ $single_comic['price'] }} --}}
-{{-- {{ $single_comic['series'] }}  --}}
-{{-- #B9B6B0 dark --}}
-{{-- #F6F6F6 --}}
-{{-- #193C50 blue --}}
